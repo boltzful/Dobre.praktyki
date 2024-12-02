@@ -3,10 +3,10 @@ name: Python Tests and Linting
 on:
   push:
     branches:
-      - TDD_zadania
+      - main
   pull_request:
     branches:
-      - TDD_zadania
+      - main
 
 jobs:
   lint-and-test:
